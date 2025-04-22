@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class MenuDownPanel extends JPanel {
 
-    private Image background = new ImageIcon("assets\\FrameAssets\\MenuDown.png").getImage();
+    private Image background = new ImageIcon("assets/FrameAssets/MenuDown.png").getImage();
     private  JButton button = new JButton("Play");
 
     private ToolsPanel toolsPanel;

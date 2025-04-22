@@ -2,12 +2,12 @@ import javax.swing.*;
 import java.awt.*;
 
 public class SeedsTomato extends SeedsClass{
-    private Image state0 =  new ImageIcon("assets\\SeedClassAssets\\TomatoAssets\\TomatoIcon0.png").getImage();
-    private Image state1 =  new ImageIcon("assets\\SeedClassAssets\\TomatoAssets\\TomatoIcon1.png").getImage();
-    private Image state2 =  new ImageIcon("assets\\SeedClassAssets\\TomatoAssets\\TomatoIcon2.png").getImage();
-    private Image state3 =  new ImageIcon("assets\\SeedClassAssets\\TomatoAssets\\TomatoIcon3.png").getImage();
-    private Image state4 =  new ImageIcon("assets\\SeedClassAssets\\TomatoAssets\\TomatoIcon4.png").getImage();
-    private Image state5 =  new ImageIcon("assets\\SeedClassAssets\\TomatoAssets\\TomatoIcon5.png").getImage();
+    private Image state0 =  new ImageIcon("assets/SeedClassAssets/TomatoAssets/TomatoIcon0.png").getImage();
+    private Image state1 =  new ImageIcon("assets/SeedClassAssets/TomatoAssets/TomatoIcon1.png").getImage();
+    private Image state2 =  new ImageIcon("assets/SeedClassAssets/TomatoAssets/TomatoIcon2.png").getImage();
+    private Image state3 =  new ImageIcon("assets/SeedClassAssets/TomatoAssets/TomatoIcon3.png").getImage();
+    private Image state4 =  new ImageIcon("assets/SeedClassAssets/TomatoAssets/TomatoIcon4.png").getImage();
+    private Image state5 =  new ImageIcon("assets/SeedClassAssets/TomatoAssets/TomatoIcon5.png").getImage();
     public SeedsTomato(){
         setName("Tomato");
         setState0(state0);

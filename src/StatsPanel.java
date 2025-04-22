@@ -4,11 +4,11 @@ import java.io.File;
 import java.io.IOException;
 
 public class StatsPanel extends JPanel {
-    private Image background = new ImageIcon("assets\\FrameAssets\\StatsFrame.png").getImage();
+    private Image background = new ImageIcon("assets/FrameAssets/StatsFrame.png").getImage();
 
-    private ImageIcon coinImage= new ImageIcon("assets\\IconAssets\\CoinIcon.png");
-    private ImageIcon gemImage= new ImageIcon("assets\\IconAssets\\GemIcon.png");
-    private ImageIcon levelImage= new ImageIcon("assets\\IconAssets\\LevelIcon.png");
+    private ImageIcon coinImage= new ImageIcon("assets/IconAssets/CoinIcon.png");
+    private ImageIcon gemImage= new ImageIcon("assets/IconAssets/GemIcon.png");
+    private ImageIcon levelImage= new ImageIcon("assets/IconAssets/LevelIcon.png");
 
     private JLabel statsLabel= new JLabel("Stats");
 
@@ -16,7 +16,7 @@ public class StatsPanel extends JPanel {
 
     {
         try {
-            font = Font.createFont(Font.TRUETYPE_FONT,new File("assets\\Font.otf"));
+            font = Font.createFont(Font.TRUETYPE_FONT,new File("assets/Font.otf"));
         } catch (FontFormatException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {

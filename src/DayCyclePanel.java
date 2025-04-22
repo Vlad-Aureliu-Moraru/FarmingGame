@@ -4,7 +4,7 @@ import java.awt.*;
 public class DayCyclePanel extends JPanel {
     private JLabel dayLabel = new JLabel("Day/Night");
 
-    private Image background = new ImageIcon("assets\\FrameAssets\\DayNightFrame.png").getImage();
+    private Image background = new ImageIcon("assets/FrameAssets/DayNightFrame.png").getImage();
 
     private PlayerClass playerClass;
     public DayCyclePanel(PlayerClass playerClass) {

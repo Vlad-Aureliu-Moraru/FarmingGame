@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class ToolsPanel extends JPanel {
     private JLabel label = new JLabel("Tools");
-    private Image background = new ImageIcon("assets\\FrameAssets\\ToolsFrame.png").getImage();
+    private Image background = new ImageIcon("assets/FrameAssets/ToolsFrame.png").getImage();
     private PlayerClass player;
 
     private ToolHarvest toolHarvest;

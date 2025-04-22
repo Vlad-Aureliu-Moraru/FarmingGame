@@ -5,7 +5,7 @@ import java.awt.event.MouseEvent;
 
 public class BarnClass extends JPanel {
 
-    private Image background = new ImageIcon("assets\\BuildingsAssets\\Barn.png").getImage();
+    private Image background = new ImageIcon("assets/BuildingsAssets/Barn.png").getImage();
     private InventoryPanel inventoryPanel;
     private GamePanel gamePanel;
     private PlayerClass playerClass;

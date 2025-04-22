@@ -7,13 +7,13 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 
 public class InventoryPane extends JPanel {
-    private Image background = new ImageIcon("assets\\FrameAssets\\InventoryPane.png").getImage();
+    private Image background = new ImageIcon("assets/FrameAssets/InventoryPane.png").getImage();
     private Color backgroundColor = new Color(0, 0, 0, 87);
     private Font font;
 
     {
         try {
-            font = Font.createFont(Font.TRUETYPE_FONT,new File("assets\\Font.otf"));
+            font = Font.createFont(Font.TRUETYPE_FONT,new File("assets/Font.otf"));
         } catch (FontFormatException e) {
             throw new RuntimeException(e);
         } catch (IOException e) {
@@ -21,8 +21,8 @@ public class InventoryPane extends JPanel {
         }
     }
 
-    private ImageIcon equipIcon = new ImageIcon("assets\\ButtonAssets\\EquipButton.png");
-    private ImageIcon equipedIcon = new ImageIcon("assets\\ButtonAssets\\EquipedButton.png");
+    private ImageIcon equipIcon = new ImageIcon("assets/ButtonAssets/EquipButton.png");
+    private ImageIcon equipedIcon = new ImageIcon("assets/ButtonAssets/EquipedButton.png");
 
     private JLabel inventoryObjectLabel = new JLabel();
     private JLabel equipButtonLabel = new JLabel();

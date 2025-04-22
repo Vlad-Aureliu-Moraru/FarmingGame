@@ -7,7 +7,7 @@ public class ShopClass extends JPanel {
     private GamePanel gamePanel;
     private PlayerClass playerClass;
     private InventoryCollectedPanel inventoryCollectedPanel;
-    private Image background = new ImageIcon("assets\\BuildingsAssets\\Shop.png").getImage();
+    private Image background = new ImageIcon("assets/BuildingsAssets/Shop.png").getImage();
     public ShopClass(GamePanel gamePanel , PlayerClass playerClass) {
         this.gamePanel = gamePanel;
         this.playerClass = playerClass;

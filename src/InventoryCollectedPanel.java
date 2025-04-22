@@ -5,8 +5,8 @@ import java.awt.event.MouseEvent;
 
 public class InventoryCollectedPanel extends JPanel {
         private JLabel closeButton = new JLabel();
-        private ImageIcon closeButtonIcon = new ImageIcon("assets\\ButtonAssets\\CloseButton.png");
-        private Image background = new ImageIcon("assets\\PanelAssets\\ShopPanel.png").getImage();
+        private ImageIcon closeButtonIcon = new ImageIcon("assets/ButtonAssets/CloseButton.png");
+        private Image background = new ImageIcon("assets/PanelAssets/ShopPanel.png").getImage();
 
         private InventoryPane[] inventoryPane = new InventoryPane[10];
         private InventoryCollected inventory;

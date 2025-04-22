@@ -4,7 +4,7 @@ import java.awt.*;
 public class GamePanel extends JPanel {
 
 
-    private Image background = new ImageIcon("assets\\BackgroundAssets\\grass.png").getImage();
+    private Image background = new ImageIcon("assets/BackgroundAssets/grass.png").getImage();
 
     //FARMIN STUFF
     private FarmingTerrainClass farmingTerrainClass;

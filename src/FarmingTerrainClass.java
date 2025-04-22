@@ -6,7 +6,7 @@ import java.util.jar.JarEntry;
 
 public class FarmingTerrainClass extends JPanel {
 
-    private Image background = new ImageIcon("assets\\FarmingAssets\\FarmingTerrain.png").getImage();
+    private Image background = new ImageIcon("assets/FarmingAssets/FarmingTerrain.png").getImage();
 
    private FarmingSpotClass[] farmingSpotClass = new FarmingSpotClass[3];
    private int limit = 3;
