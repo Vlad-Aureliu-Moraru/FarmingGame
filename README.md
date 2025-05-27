@@ -1,4 +1,3 @@
-You got it\! Here's a cool GitHub README for a basic Java Swing farming game:
 
 -----
 
